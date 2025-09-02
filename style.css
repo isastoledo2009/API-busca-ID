@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: brown;
+    height: 50px;
+    padding-top: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav a{
+    color:bisque;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: blueviolet;
+}
+
+#erro {
+    color: crimson;
+}
